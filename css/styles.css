@@ -16,12 +16,17 @@ body {
 ul {
   padding-left: 0;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .main-nav {
   display: flex;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -119,14 +124,14 @@ ul {
   margin-right: auto;
 }
 .main-pages .container {
-  width: 1600px;
+  width: 1200px;
   height: 600px;
   background-color: var(--primary-black-color);
   margin-left: auto;
   margin-right: auto;
 }
 .container-button {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -179,7 +184,7 @@ button {
 .feature-list > .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 94px;
@@ -206,9 +211,11 @@ button {
   background-color: var(--primary-button-color);
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .act-img {
   list-style: none;
@@ -224,14 +231,14 @@ button {
   line-height: 1.17;
   text-align: center;
   font-weight: bold;
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
   padding-top: 0px;
 }
 .activity .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -293,25 +300,29 @@ footer {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
+  margin-bottom: 268px;
 }
 .items {
   display: flex;
   flex-wrap: wrap;
-  width: 1230px;
+  width: 1200px;
+  margin-bottom: -30px;
 }
 .item-flex {
   width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .item-flex:nth-child(3n) {
-  margin-right: 30px;
+  margin-right: 0px;
 }
 .item-flex:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .container-cont {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -323,7 +334,7 @@ footer {
 }
 
 .container-button {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
