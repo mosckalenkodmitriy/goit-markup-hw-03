@@ -289,11 +289,13 @@ footer {
   font-size: 18px;
   line-height: 2;
   font-weight: bold;
+  margin: 20px 24px 4px;
 }
 .item-flex .subtitle {
   color: var(--primary-grey-color);
   font-size: 16px;
   line-height: 1.88;
+  margin: 4px 24px 20px;
 }
 .test-container {
   margin-left: auto;
@@ -313,6 +315,8 @@ footer {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .item-flex:nth-child(3n) {
